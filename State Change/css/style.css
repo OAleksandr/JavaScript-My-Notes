@@ -1,0 +1,33 @@
+.site-nav
+{
+    padding: 1rem;
+    box-shadow: 0 0 5px 0 grey;
+}
+.icon-view
+{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 3px 0 rgb(37, 140, 224);
+    padding: 0.5rem 1rem;
+}
+.button:hover
+{
+    background: rgb(5, 229, 236);
+}
+.window
+{
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgb(37, 140, 224);
+    width: 40vw;
+    height: 50vh;
+    margin: 5rem auto;
+}
+.hidden
+{
+    display: none;
+}
