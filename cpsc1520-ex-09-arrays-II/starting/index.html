@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JSUI</title>
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <ul class="icon-view">
+        <li>logo</li>
+        <li>brand</li>
+        <li>login</li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="quote">
+        <form id="options" class="options">
+          <div>
+            <label for="products">select a product</label>
+            <select id="products" class="ui-style ui-select">
+              <option value="product-a">Thor</option>
+              <option value="product-b">Purple Urkle</option>
+              <option value="product-c">MK Ultra</option>
+              <option value="product-d">Gorilla Glue</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="quantity">select quantity in grams</label>
+            <select id="quantity" class="ui-style ui-select">
+              <option value="1">1 gram</option>
+              <option value="2">2 grams</option>
+              <option value="3">3 grams</option>
+              <option value="4">4 grams</option>
+              <option value="5">5 grams</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="province">province</label>
+            <select id="province" class="ui-style ui-select">
+              <option value="Alberta">Alberta</option>
+              <option value="British Columbia">British Columbia</option>
+              <option value="Saskatchewan">Saskatchewan</option>
+              <option value="Manitoba">Manitoba</option>
+              <option value="Yukon">Yukon</option>
+            </select>
+          </div>
+
+          <div>
+            <input class="ui-button" type="button" value="get quote" />
+          </div>
+        </form>
+
+        <aside id="output" class="output">
+          <header>
+            <img src="img/product-a.jpg" alt="thor cannabis bud" />
+            <p class="product-name">Thor</p>
+          </header>
+          <div class="invoice">
+            Please Select A Product and Quantity
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
